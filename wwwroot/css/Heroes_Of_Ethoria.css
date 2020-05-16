@@ -1,0 +1,12 @@
+body {
+    background-color: lightgrey;
+    text-align : center;
+    
+
+
+}
+
+
+#bodyContent { /*must identify it on the body, the # means there can only be one!*/
+    background-color: gold;
+}
