@@ -8,7 +8,7 @@ namespace Final_Project.Controllers
 {
     public class LoginPageController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
