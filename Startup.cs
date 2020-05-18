@@ -61,19 +61,7 @@ namespace Final_Project
                     pattern: "{controller=GuidePage}/{action=Guide}/{id?}");
             });
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Feature}/{action=FeaturePage}/{id?}");
-            });
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                        name: "default",
-                        pattern: "{controller=World}/{action=WorldPage}/{id?}");
-            });
+           
           
         }
     }

@@ -23,7 +23,7 @@ namespace Final_Project.Controllers
 
 
         // GET: /<controller>/
-        public IActionResult Feature()
+        public IActionResult FeaturePage()
         {
             return View();
         }
