@@ -21,7 +21,7 @@ namespace Final_Project.Controllers
         }
 
         // GET: /<controller>/
-        public IActionResult World()
+        public IActionResult WorldPage()
         {
             return View();
         }
